@@ -1,0 +1,17 @@
+name: qms-automated
+channels:
+  - defaults
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+  - https://repo.anaconda.com/pkgs/msys2
+dependencies:
+  - python=3.11
+  - fastapi
+  - httpx
+  - pydantic
+  - pytest
+  - python-dotenv
+  - python-multipart
+  - sqlalchemy
+  - uvicorn
+prefix: C:\Users\LENOVO\.conda\envs\qms-automated
